@@ -1,0 +1,24 @@
+﻿@page
+@model EditModel
+@{
+    <div>
+        <h2> Edit Task</h2>
+    </div>
+    <div>
+        <form method="post">
+            <input asp-for="Mytasks.ID" type="hidden"/>
+            <input asp-for="Mytasks.TaskDescription" type="text" placeholder="Task Description" />
+            <span asp-validation-for="Mytasks.TaskDescription"></span>
+
+            <input asp-for="Mytasks.TaskName" type="text" placeholder="Task Name" />
+            <span asp-validation-for="Mytasks.TaskName"></span>
+
+
+            <input asp-for="Mytasks.TaskSchedule" type="text" placeholder="Task Name" />
+            <span asp-validation-for="Mytasks.TaskSchedule"></span>
+            <input type="submit" value="Edit Task" />
+            <a asp-page="Index">Back To My Task Scheduler</a>
+        </form>
+    </div>
+
+}

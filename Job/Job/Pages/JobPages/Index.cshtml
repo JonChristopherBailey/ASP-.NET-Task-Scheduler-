@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+    <h2>My Tasks</h2>
+    <div>
+        @if(Model.afterAddMessage!=null)
+        
+            {
+            @Model.afterAddMessage
+            }
+        @if (Model.myTasks.Count() > 0)
+        {
+            <form method="post">
+                <table>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(m => m.myTasks.FirstOrDefault().TaskDescription)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.myTasks.FirstOrDefault().TaskDescription)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.myTasks.FirstOrDefault().TaskSchedule)
+                        </th>
+                        <th>
+                            </th>
+
+                    </tr>
+                    @foreach (var item in Model.myTasks)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.TaskDescription)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.TaskName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.TaskSchedule)
+                            </td>
+                            <td>
+                                <a asp-page="Edit" asp-route-id="@item.ID">Edit</a>
+                            </td>
+                            <td>
+<button asp-page-handler="Delete" asp-route-id="@item.ID">&times;</button>
+                            </td>
+                        </tr>
+
+                    }
+                </table>
+            </form>
+
+
+        }
+        else
+        {
+            <p>No connections currently</p>
+
+        }
+    </div>
+}
+
+

@@ -1,0 +1,24 @@
+﻿@page
+@model createModel
+@{
+}
+<div>
+    <h2> Add Task</h2>
+</div>
+<div>
+<form method="post">
+
+    <input asp-for="Mytask.TaskDescription" type="text" placeholder="Task Description" />
+    <span asp-validation-for="Mytask.TaskDescription"></span>
+   
+        <input asp-for="Mytask.TaskName" type="text" placeholder="Task Name" />
+        <span asp-validation-for="Mytask.TaskName"></span>
+
+       
+            <input asp-for="Mytask.TaskSchedule" type="text" placeholder="Task Name" />
+            <span asp-validation-for="Mytask.TaskSchedule"></span>
+               <input type ="submit" value="Add Task"/>
+    <a asp-page="Index">Back To My Task Scheduler</a>
+        </form>
+</div>
+

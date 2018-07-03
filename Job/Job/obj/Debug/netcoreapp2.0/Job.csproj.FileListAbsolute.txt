@@ -1,0 +1,11 @@
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.csprojAssemblyReference.cache
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.csproj.CoreCompileInputs.cache
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.AssemblyInfoInputs.cache
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.AssemblyInfo.cs
+C:\Users\Jon Bailey\Source\Repos\Job\Job\bin\Debug\netcoreapp2.0\Job.deps.json
+C:\Users\Jon Bailey\Source\Repos\Job\Job\bin\Debug\netcoreapp2.0\Job.runtimeconfig.json
+C:\Users\Jon Bailey\Source\Repos\Job\Job\bin\Debug\netcoreapp2.0\Job.runtimeconfig.dev.json
+C:\Users\Jon Bailey\Source\Repos\Job\Job\bin\Debug\netcoreapp2.0\Job.dll
+C:\Users\Jon Bailey\Source\Repos\Job\Job\bin\Debug\netcoreapp2.0\Job.pdb
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.dll
+C:\Users\Jon Bailey\Source\Repos\Job\Job\obj\Debug\netcoreapp2.0\Job.pdb
